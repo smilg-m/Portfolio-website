@@ -48,3 +48,23 @@
   margin: 0;
   padding: 0;
 }
+
+footer {
+  padding: 30px;
+  text-align: center;
+  background-color: black;
+  color: var(--primary-color);
+  font-family: var(--paragraph-font);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
