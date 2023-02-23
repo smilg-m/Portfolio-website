@@ -41,3 +41,10 @@
   text-decoration: underline;
   color: black;
 }
+
+.gallery {
+  display:block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
