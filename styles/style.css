@@ -42,9 +42,9 @@
   color: black;
 }
 
-.gallery {
-  display:block;
-  width: 100%;
+.container {
+  display: block;
+  max-width: 100%;
   margin: 0;
   padding: 0;
 }
