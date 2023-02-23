@@ -5,26 +5,25 @@
   --background-color: #eeff70;
 }
 
+h1,
+h2 {
+  font-family: var(--heading-font);
+  color: black;
+  font-weight: 300;
+  font-size: 70px;
+  line-height: 100px;
+}
+
 .hero {
   padding: 100px 60px 30px 60px;
   background-color: var(--background-color);
 }
 
 .hero h1 {
-  font-family: var(--heading-font);
-  color: black;
-  font-weight: 300;
-  font-size: 70px;
-  line-height: 100px;
   text-align: left;
 }
 
 .hero h2 {
-  font-family: var(--heading-font);
-  color: black;
-  font-weight: 300;
-  font-size: 70px;
-  line-height: 100px;
   text-align: right;
 }
 
@@ -37,7 +36,7 @@
 
 .hero a {
   font-family: var(--paragraph-font);
-  font-size: 16px;
+  font-size: 15px;
   text-decoration: underline;
   color: black;
 }
@@ -55,16 +54,33 @@ footer {
   background-color: black;
   color: var(--primary-color);
   font-family: var(--paragraph-font);
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 300;
 }
 
 a {
   color: var(--primary-color);
   text-decoration: none;
+  font-size: 13px;
 }
 
 a:hover {
   text-decoration: underline;
   color: var(--primary-color);
+}
+
+@media (max-width: 960px) {
+  h1,
+  h2 {
+    font-size: 50px;
+    line-height: 65px;
+  }
+
+  .hero p {
+    font-size: 18px;
+    max-width: 450px;
+  }
+  .hero {
+    padding: 50px 50px 30px 50px;
+  }
 }
