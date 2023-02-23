@@ -1,13 +1,43 @@
-h1 {
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
-  font-size: 70px;
-  line-height: 100px;
+:root {
+  --heading-font: "Unbounded", cursive;
+  --paragraph-font: "Poppins", sans-serif;
+  --primary-color: #c786ed;
+  --background-color: #eeff70;
 }
 
-p {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 27px;
+.hero {
+  padding: 100px 60px 30px 60px;
+  background-color: var(--background-color);
+}
+
+.hero h1 {
+  font-family: var(--heading-font);
+  color: black;
+  font-weight: 300;
+  font-size: 70px;
+  line-height: 100px;
+  text-align: left;
+}
+
+.hero h2 {
+  font-family: var(--heading-font);
+  color: black;
+  font-weight: 300;
+  font-size: 70px;
+  line-height: 100px;
+  text-align: right;
+}
+
+.hero p {
+  font-family: var(--heading-font);
+  font-weight: 300;
+  font-size: 25px;
+  max-width: 650px;
+}
+
+.hero a {
+  font-family: var(--paragraph-font);
+  font-size: 16px;
+  text-decoration: underline;
+  color: black;
 }
