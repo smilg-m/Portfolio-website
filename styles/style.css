@@ -29,9 +29,10 @@ h4 {
 }
 
 a {
+  font-family: var(--paragraph-font);
   color: black;
-  text-decoration: none;
-  font-size: 13px;
+  text-decoration: underline;
+  font-size: 16px;
 }
 
 a:hover {
@@ -50,6 +51,11 @@ footer {
   border-top: 1px solid rgb(0, 0, 0, 0.5);
 }
 
+footer a {
+  font-size: 12px;
+  text-decoration: none;
+}
+
 .project-card a {
   text-decoration: none;
 }
@@ -60,7 +66,8 @@ footer {
 }
 
 .hero {
-  padding: 100px 60px 40px 60px;
+  padding: 100px 60px 50px 60px;
+  margin-bottom: 60px;
   background-color: var(--background-color);
 }
 
@@ -77,19 +84,64 @@ footer {
   font-weight: 300;
   font-size: 25px;
   max-width: 650px;
+  color: black;
 }
 
 .hero a {
   font-family: var(--paragraph-font);
-  font-size: 15px;
-  text-decoration: underline;
+  font-size: 16px;
   color: black;
+}
+
+.hero a:hover {
+  font-family: var(--paragraph-font);
+  text-decoration: underline;
+  color: var(--primary-color);
 }
 
 .container {
   display: block;
   max-width: 100%;
-  padding: 60px;
+  padding: 0 60px;
+}
+
+.section-fill {
+  background-color: var(--background-color);
+}
+
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding-top: 30px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: var(--heading-font);
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 58px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav li.active a {
+  text-decoration: underline;
 }
 
 .content-section {
@@ -141,7 +193,7 @@ footer {
     max-width: 450px;
   }
   .hero {
-    padding: 50px 50px 30px 50px;
+    padding: 0 60px 50px 60px;
   }
 
   .content-section-description {
