@@ -11,7 +11,7 @@ h2 {
   color: black;
   font-weight: 300;
   font-size: 70px;
-  line-height: 100px;
+  line-height: 90px;
 }
 
 h3 {
@@ -92,9 +92,41 @@ footer {
   padding: 60px;
 }
 
+.about-section {
+  padding: 100px 60px 60px 60px;
+  margin-bottom: 80px;
+  background-color: var(--background-color);
+}
+
+.about-section h2 {
+  font-family: var(--heading-font);
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 50px;
+}
+
+.about-section p {
+  font-family: var(--heading-font);
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.about-section-description {
+  margin-top: 50px;
+}
+
+.about-img {
+  max-width: 100%;
+  height: auto;
+}
+
 @media (max-width: 960px) {
-  h1,
-  h2 {
+  h1 {
+    font-size: 50px;
+    line-height: 65px;
+  }
+
+  .hero h2 {
     font-size: 50px;
     line-height: 65px;
   }
@@ -105,5 +137,17 @@ footer {
   }
   .hero {
     padding: 50px 50px 30px 50px;
+  }
+
+  .about-section-description {
+    margin-top: 0;
+  }
+  .about-section h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .about-section p {
+    font-size: 18px;
   }
 }
