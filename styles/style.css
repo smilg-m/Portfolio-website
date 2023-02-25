@@ -92,26 +92,27 @@ footer {
   padding: 60px;
 }
 
-.about-section {
+.content-section {
   padding: 100px 60px 60px 60px;
   margin-bottom: 80px;
   background-color: var(--background-color);
 }
 
-.about-section h2 {
+.content-section h2 {
   font-family: var(--heading-font);
   font-weight: 300;
   font-size: 35px;
   line-height: 50px;
 }
 
-.about-section p {
+.content-section p {
   font-family: var(--heading-font);
   font-weight: 300;
   font-size: 20px;
+  color: black;
 }
 
-.about-section-description {
+.content-section-description {
   margin-top: 50px;
 }
 
@@ -139,15 +140,15 @@ footer {
     padding: 50px 50px 30px 50px;
   }
 
-  .about-section-description {
+  .content-section-description {
     margin-top: 0;
   }
-  .about-section h2 {
+  .content-section h2 {
     font-size: 28px;
     line-height: 40px;
   }
 
-  .about-section p {
+  .content-section p {
     font-size: 18px;
   }
 }
