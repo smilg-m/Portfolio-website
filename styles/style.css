@@ -41,8 +41,8 @@ a:hover {
 }
 
 footer {
-  padding: 30px;
-  margin: 0 60px;
+  padding: 40px 0 20px 0;
+  margin: 60px 60px 0 60px;
   text-align: center;
   color: black;
   font-family: var(--paragraph-font);
@@ -51,9 +51,34 @@ footer {
   border-top: 1px solid rgb(0, 0, 0, 0.5);
 }
 
-footer a {
+footer a,
+.coded-by a {
   font-size: 12px;
   text-decoration: none;
+}
+
+footer .social-links {
+  margin-bottom: 50px;
+}
+footer .social-links a {
+  font-size: 22px;
+  margin: 0 15px;
+}
+
+footer .email-link {
+  font-family: var(--heading-font);
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.coded-by {
+  padding: 20px;
+  text-align: center;
+  color: black;
+  font-family: var(--paragraph-font);
+  font-size: 12px;
+  font-weight: 300;
+  background-color: var(--background-color);
 }
 
 .project-card a {
