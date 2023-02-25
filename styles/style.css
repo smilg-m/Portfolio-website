@@ -40,6 +40,14 @@ a:hover {
   color: var(--primary-color);
 }
 
+p {
+  font-family: var(--heading-font);
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 35px;
+  color: black;
+}
+
 footer {
   padding: 40px 0 20px 0;
   margin: 60px 60px 0 60px;
@@ -91,7 +99,7 @@ footer .email-link {
 }
 
 .hero {
-  padding: 100px 60px 50px 60px;
+  padding: 200px 60px 50px 60px;
   margin-bottom: 60px;
   background-color: var(--background-color);
 }
@@ -170,7 +178,7 @@ nav li.active a {
 }
 
 .content-section {
-  padding: 100px 60px 60px 60px;
+  padding: 160px 60px 60px 60px;
   margin-bottom: 80px;
   background-color: var(--background-color);
 }
@@ -186,7 +194,9 @@ nav li.active a {
   font-family: var(--heading-font);
   font-weight: 300;
   font-size: 20px;
+  line-height: 35px;
   color: black;
+  max-width: 650px;
 }
 
 .contact-container {
@@ -195,6 +205,11 @@ nav li.active a {
 
 .content-section-description {
   margin-top: 50px;
+}
+
+.content-section-book {
+  padding: 160px 60px 60px 60px;
+  margin-bottom: 20px;
 }
 
 .about-img {
@@ -206,6 +221,7 @@ nav li.active a {
   h1 {
     font-size: 50px;
     line-height: 65px;
+    padding-top: 50px;
   }
 
   .hero h2 {
@@ -218,7 +234,7 @@ nav li.active a {
     max-width: 450px;
   }
   .hero {
-    padding: 0 60px 50px 60px;
+    padding: 100px 60px 50px 60px;
   }
 
   .content-section-description {
