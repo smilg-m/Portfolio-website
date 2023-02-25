@@ -112,6 +112,10 @@ footer {
   color: black;
 }
 
+.contact-container {
+  padding-bottom: 300px;
+}
+
 .content-section-description {
   margin-top: 50px;
 }
@@ -150,5 +154,9 @@ footer {
 
   .content-section p {
     font-size: 18px;
+  }
+
+  .contact-container {
+    padding-bottom: 100px;
   }
 }
