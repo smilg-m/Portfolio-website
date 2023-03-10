@@ -59,6 +59,11 @@ footer {
   border-top: 1px solid rgb(0, 0, 0, 0.5);
 }
 
+.without-line {
+  border-top: none;
+  padding-top: 0;
+}
+
 footer a,
 .coded-by a {
   font-size: 12px;
