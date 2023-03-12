@@ -169,7 +169,7 @@ nav ul {
 nav li {
   display: inline;
   list-style: none;
-  margin-left: 25px;
+  margin-left: 15px;
 }
 
 nav a {
@@ -230,22 +230,25 @@ nav li.active a {
 
 @media (max-width: 960px) {
   h1 {
-    font-size: 50px;
-    line-height: 65px;
+    font-size: 45px;
+    line-height: 60px;
     padding-top: 50px;
+    word-wrap: break-word;
   }
 
   .hero h2 {
-    font-size: 50px;
-    line-height: 65px;
+    font-size: 45px;
+    line-height: 60px;
+    word-wrap: break-word;
   }
 
   .hero p {
     font-size: 18px;
+    line-height: 28px;
     max-width: 450px;
   }
   .hero {
-    padding: 100px 60px 50px 60px;
+    padding: 100px 30px 50px 30px;
   }
 
   .content-section-description {
@@ -265,7 +268,14 @@ nav li.active a {
   }
 
   .project-description {
-  padding-right: 16px;
-}
-  
+    padding-right: 16px;
+  }
+
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  nav li {
+    margin-left: 10px;
+  }
 }
